@@ -1,12 +1,12 @@
 
 
-###  🚾 급똥
+# 🚾 급똥
 <img width="980" alt="techeermarkte" src="https://github.com/user-attachments/assets/26e435aa-71c1-4856-852c-13fac79f52d6">
 
 
 <br>
 
-###  🚽 Introduction
+# 🚽 Introduction
 
 | 사용자 위치 기반 공공 화장실 정보 제공 서비스 🏃🏻‍♀️
 #####  URL 
@@ -15,7 +15,7 @@
 <br>
 <br>
 
-### 📚 Tech Stack
+# 📚 Tech Stack
 
 | Frontend | Backend | Database&Storage | DevOps | 
 | --- | --- | --- | --- | 
@@ -24,14 +24,14 @@
 
 <br>
 
-### ⚙️ System Architecture
+# ⚙️ System Architecture
 
 ![시스템아키텍쳐](https://github.com/user-attachments/assets/462bbcb6-c782-4695-b508-fd4290ef3475)
 
 
 <br>
 
-### ⛺️ ERD
+# ⛺️ ERD
 ![ERD](https://github.com/user-attachments/assets/106710ba-250f-4b6f-ad06-ead7b3f640c6)
 
 
@@ -42,7 +42,7 @@
 
 <br>
 
-### 💻 Installation Process
+# 💻 Installation Process
 
 > 
 
@@ -86,26 +86,32 @@ REFRESH_JWT_EXPIRE_IN =
 <br>
 
 
-### 🖼️ Demo
+# 🖼️ Demo
 
 **회원가입 / 로그인**
-| 회원가입/로그인 페이지
+
+>  회원가입/로그인 페이지 
+
 ![Image](https://github.com/user-attachments/assets/eb93bb7d-d806-45dc-abdc-edf6ba98c255)
 
  **공공화장실 조회**
- | 사용자 위치를 기반으로 주변 공공 화장실 조회
+ 
+>  사용자 위치를 기반으로 주변 공공 화장실 조회
+
  ![Image](https://github.com/user-attachments/assets/5d35202a-9110-49fe-9a3e-cbd1f8b5afce)
 
 **댓글 / 좋아요 기능**
-| 화장실의 상세정보와 댓글, 좋아요 기능
+
+>  화장실의 상세정보와 댓글, 좋아요 기능
+
 ![Image](https://github.com/user-attachments/assets/8ac963f6-ed5a-4512-9054-9100857bcaf7)
 
 
-### API
+# API
 ![Image](https://github.com/user-attachments/assets/6180c881-06a9-46dd-ac18-4c105e004508)
 
 
-### 👥 Member 
+# 👥 Member 
 <table width="1000">
     <thead>
         <tr>
