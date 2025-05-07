@@ -10,7 +10,7 @@
 
 | 사용자 위치 기반 공공 화장실 정보 제공 서비스 🏃🏻‍♀️
 #####  URL 
-| 🖥️ https://geubddong-deploy.vercel.app/
+| 🖥️ https://app.geubddong.com/
 
 <br>
 <br>
@@ -28,11 +28,10 @@
 
 ![시스템아키텍쳐](https://github.com/user-attachments/assets/462bbcb6-c782-4695-b508-fd4290ef3475)
 
-
 <br>
 
 # ⛺️ ERD
-![ERD](https://github.com/user-attachments/assets/106710ba-250f-4b6f-ad06-ead7b3f640c6)
+![ERD](https://github.com/user-attachments/assets/423a027c-9031-473b-a814-a7c49c10e184)
 
 
 
@@ -57,8 +56,6 @@ git clone --recursive <https://github.com/GeubDDong/Backend.git>
 > 
 
 ```
-PORT=
-
 DB_TYPE=
 DB_HOST=
 DB_PORT=
@@ -66,21 +63,31 @@ DB_USERNAME=
 DB_PASSWORD=
 DB_DATABASE=
 DB_SYNCHRONIZE=
-DB_LOGGING=
 
+DB_LOGGING=
 REDIS_HOST=
 REDIS_PORT=
-REDIS_PASSWORD=
 
-KAKAO_HOST_NAME = 
-KAKAO_REST_API_KEY = 
-KAKAO_SECRET_KEY = 
-KAKAO_REDIRECT_URI = 
+KAKAO_HOST_NAME=
+KAKAO_REST_API_KEY=
+KAKAO_SECRET_KEY=
+KAKAO_REDIRECT_URI=
 
-JWT_SECRET = 
-JWT_EXPIRE_IN = 
-REFRESH_JWT_SECRET = 
-REFRESH_JWT_EXPIRE_IN =
+JWT_SECRET=
+JWT_EXPIRE_IN=
+
+REFRESH_JWT_SECRET=
+REFRESH_JWT_EXPIRE_IN=
+
+CORS_ORIGIN=
+
+GOOGLE_REST_API_KEY=
+GOOGLE_SECRET_KEY=
+GOOGLE_REDIRECT_URI=
+
+NAVER_REST_API_KEY=
+NAVER_SECRET_KEY=
+NAVER_REDIRECT_URI=
 ```
 
 <br>
@@ -88,23 +95,59 @@ REFRESH_JWT_EXPIRE_IN =
 
 # 🖼️ Demo
 
-**회원가입 / 로그인**
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/00ede9cc-3987-4fbd-b1a0-9e6b5a2c233b" width="150"/><br/>
+      <strong>로그인 페이지</strong><br/>
+      JWT를 이용한 소셜 로그인
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c735a074-f5be-4f72-9f91-29cb7aa77ce2" width="150"/><br/>
+      <strong>로그아웃 페이지</strong><br/>
+      JWT를 이용한 로그아웃
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ca32682d-058f-4629-b793-230c1e1deb48" width="150"/><br/>
+      <strong>닉네임 설정 페이지</strong><br/>
+      회원가입 시 자동으로 랜덤한 닉네임 제공 (수정가능)
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/46cc2772-ee2c-4aba-a2d2-e9c7902f9cc8" width="150"/><br/>
+      <strong>마이페이지</strong><br/>
+      즐겨찾기 목록, 댓글 작성 목록 선택하여 확인하는 페이지 
+    </td>
+  </tr>
+</table>
 
->  회원가입/로그인 페이지 
-
-![Image](https://github.com/user-attachments/assets/eb93bb7d-d806-45dc-abdc-edf6ba98c255)
-
- **공공화장실 조회**
- 
->  사용자 위치를 기반으로 주변 공공 화장실 조회
-
- ![Image](https://github.com/user-attachments/assets/5d35202a-9110-49fe-9a3e-cbd1f8b5afce)
-
-**댓글 / 좋아요 기능**
-
->  화장실의 상세정보와 댓글, 좋아요 기능
-
-![Image](https://github.com/user-attachments/assets/8ac963f6-ed5a-4512-9054-9100857bcaf7)
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b06dfad7-cced-4d1b-96f3-821b24d68dd3" width="150"/><br/>
+      <strong>메인페이지</strong><br/>
+      geolocation을 활용하여 현위치를 기반으로 주변 화장실을 조회
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5cc47434-4e93-476a-bcaf-b738586396ca" width="150"/><br/>
+      <strong>메인페이지</strong><br/>
+      주소 검색 기능
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/91051466-19e3-489f-8bb7-142622b4b110" width="150"/><br/>
+      <strong>메인페이지</strong><br/>
+      상세 필터 기능, 즐겨찾기 기능
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/aa79b021-3337-462e-b38f-9b6e7761378d" width="150"/><br/>
+      <strong>상세정보 페이지</strong><br/>
+      화장실의 상세정보(개방시간, 전화번호 등)와 리뷰 제공
+    </td>
+  </tr>
+</table>
 
 
 # API
